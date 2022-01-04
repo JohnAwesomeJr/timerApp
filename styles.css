@@ -1,0 +1,37 @@
+body {
+    width: calc(100vw - 50px);
+    height: calc(100vh - 50px);
+    background: rgba(236, 236, 236, 1);
+}
+
+.flex {
+    display: inline-flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.main {
+    /* background: lightgray; */
+    /* width: 100px; */
+    /* height: 100px; */
+    padding: 30px;
+    font-size: 100px;
+    border-radius: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: solid rgba(0, 0, 0, 0.07) 2px;
+}
+
+.blink {
+    transition: all 0.4s;
+}
