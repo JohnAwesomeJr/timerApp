@@ -1,4 +1,4 @@
-let minutStart = "09";
+let minutStart = "10";
 let secondStart = "00";
 let pause = true;
 
