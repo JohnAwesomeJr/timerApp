@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  timerApp:
+    container_name: timerApp
+    image: mylamp:latest
+    volumes:
+      - "./html:/var/www/html/"
+    ports:
+      - 80:80
+      - 433:433

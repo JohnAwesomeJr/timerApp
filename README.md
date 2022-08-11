@@ -9,3 +9,13 @@ simple to install,
 1. download the file
 2. open the "index.html" file in your web browser.
 3. thats all folks!
+
+```
+docker build -t mylamp -f mylampDockerfile .
+```
+```
+sudo chmod 777 -R html/
+```
+```
+docker-compose up -d
+```
